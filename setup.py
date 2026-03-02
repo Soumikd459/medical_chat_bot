@@ -1,0 +1,23 @@
+
+
+from setuptools import setup, find_packages
+
+
+setup( 
+    name="medical_chat_bot",
+    version="0.1.0",
+    author="Soumik das",
+    author_email="soumikd459@gmail.com",
+    packages=find_packages(),
+    install_requires=[
+        "langchain==0.3.26",
+        "langchain-core>=0.3.66,<1.0.0",
+        "langchain-community>=0.3.0",
+        "pinecone-client>=3.0.0",
+        "flask==3.1.1", 
+        "sentence-transformers==4.1.0",
+        "pypdf==5.6.1", 
+        "python-dotenv==1.1.0",
+        "langchain-openai==0.3.24"
+    ]
+)
